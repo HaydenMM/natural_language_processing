@@ -1,4 +1,5 @@
-# feature.py
+# Natural Language Processing system using binary logistic regression 
+## feature.py
 ```python feature.py [args1...]``` \
 Where above [args1...] is a placeholder for eight command-line arguments:train input, validation input, test input, dict input, formatted train out, formatted validation out, formatted test out, feature flag \
 1. train input: path to the training input .tsv file 
@@ -10,7 +11,7 @@ Where above [args1...] is a placeholder for eight command-line arguments:train i
 7. formatted test out: path to output .tsv file to which the feature extractions on the test data should be written 
 8. feature flag: integer taking value 1 or 2 that specifies whether to construct the Model 1 feature set or the Model 2 feature set
 
-# lr.py
+## lr.py
 ```python lr.py [args2...]``` \
 On the other hand, [args2...] is a placeholder for eight command-line arguments:formatted train input, formatted validation input, formatted test input, dict input, train out, test out, metrics out, num epoch
 1. formatted train input: path to the formatted training input .tsv file
