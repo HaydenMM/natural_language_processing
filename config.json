@@ -1,0 +1,13 @@
+{
+    "DEEPEN_CLIENT": "NREC",
+    "DB_HOST": "localhost",
+    "DB_NAME": "postgres",
+    "JIRA_URL": "https://rrhca.atlassian.net/",
+    "JIRA_PROJECT": "TP",
+    "CLASS_MAPPING" : {
+        "T72__surrogate": "T-72::surrogate",
+        "BMP2__surrogate": "BMP-2::surrogate",
+        "BTR80__surrogate": "BTR-80::surrogate",
+        "SA22__surrogate": "SA-22::surrogate"
+    }
+}
